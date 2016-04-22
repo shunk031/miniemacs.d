@@ -4,6 +4,11 @@
 *~
 *.elc
 
+# ignore some specific files
+auto-save-list
+recentf
+ac-comphist.dat
+
 # ignore some directories
 /auto-save-list
 
