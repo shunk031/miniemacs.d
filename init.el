@@ -45,12 +45,18 @@
 ;; setting for helm.el
 ;; ======================================================================
 
-(require 'helm-config)
-(helm-mode 1)
-(global-set-key (kbd "M-x") 'helm-M-x)
-(global-set-key (kbd "C-x C-f") 'helm-find-files)
-(define-key helm-find-files-map (kbd "TAB") 'helm-execute-persistent-action)
-(define-key helm-read-file-map (kbd "TAB") 'helm-execute-persistent-action)
+;; (require 'helm-config)
+;; (helm-mode 1)
+
+;; "M-x"でhelmを利用する
+;; (global-set-key (kbd "M-x") 'helm-M-x)
+
+;; "C-x C-f"でhelm find filesを利用する
+;; (global-set-key (kbd "C-x C-f") 'helm-find-files)
+
+;; helm内でのTABの操作をターミナルっぽくする
+;; (define-key helm-find-files-map (kbd "TAB") 'helm-execute-persistent-action)
+;; (define-key helm-read-file-map (kbd "TAB") 'helm-execute-persistent-action)
 
 
 ;; ======================================================================
