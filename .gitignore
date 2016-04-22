@@ -1,0 +1,15 @@
+# miniemacs.d gitignore
+
+# ignore some files
+*~
+*.elc
+
+# ignore some directories
+/auto-save-list
+
+# keep some directories
+elpa/*
+!.gitkeep
+
+backups/*
+!.gitkeep
