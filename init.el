@@ -77,3 +77,5 @@
 ;; C-h = back space
 (global-set-key (kbd "C-h") 'delete-backward-char)
 
+;; Ctrl-x p = move to the previous window
+(global-set-key (kbd "C-x p") (lambda () (interactive) (other-window -1)))
